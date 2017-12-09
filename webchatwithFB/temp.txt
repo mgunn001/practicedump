@@ -1,0 +1,5 @@
+if (e.keyCode === 32){
+				$("#message").val("<br>");
+				$(".editablediv").find("div:last").remove()
+			    $("#submit").trigger("click");
+			}
